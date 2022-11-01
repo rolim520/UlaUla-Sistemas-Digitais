@@ -1,0 +1,3 @@
+vhdl work "fulladder.vhd"
+vhdl work "somador.vhd"
+vhdl work "subtrator.vhd"

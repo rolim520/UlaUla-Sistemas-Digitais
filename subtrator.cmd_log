@@ -1,0 +1,51 @@
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/subtrator.xst" -ofn "/home/sd/Desktop/UlaUla/subtrator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 subtrator.ngc subtrator.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o subtrator_map.ncd subtrator.ngd subtrator.pcf 
+par -w -intstyle ise -ol high -t 1 subtrator_map.ncd subtrator.ncd subtrator.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml subtrator.twx subtrator.ncd -o subtrator.twr subtrator.pcf 

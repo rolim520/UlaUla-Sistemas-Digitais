@@ -1,0 +1,10 @@
+
+
+NET "z[0]" LOC = R20;
+NET "z[1]" LOC = T19;
+NET "z[2]" LOC = U20;
+NET "z[3]" LOC = U19;
+NET "x[3]" LOC = T9;
+NET "x[2]" LOC = U8;
+NET "x[1]" LOC = U10;
+NET "x[0]" LOC = V8;

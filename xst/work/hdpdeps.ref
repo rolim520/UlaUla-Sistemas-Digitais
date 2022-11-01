@@ -1,0 +1,78 @@
+V3 55
+FL /home/sd/Desktop/UlaUla/comparadorum.vhd 2022/10/25.15:18:36 P.20131013
+FL /home/sd/Desktop/UlaUla/complementodois.vhd 2022/10/27.10:46:17 P.20131013
+FL /home/sd/Desktop/UlaUla/comp_completo.vhd 2022/10/27.10:49:44 P.20131013
+FL /home/sd/Desktop/UlaUla/decremento.vhd 2022/10/25.15:23:18 P.20131013
+FL /home/sd/Desktop/UlaUla/fulladder.vhd 2022/10/25.13:55:20 P.20131013
+FL /home/sd/Desktop/UlaUla/incremento.vhd 2022/10/27.10:45:24 P.20131013
+FL /home/sd/Desktop/UlaUla/mod.vhd 2022/10/27.10:42:49 P.20131013
+AR work/mod/Behavioral 0 FL /home/sd/Desktop/UlaUla/mod.vhd EN work/mod 0 \
+      CP comp_completo CP subtrator
+FL /home/sd/Desktop/UlaUla/somador.vhd 2022/10/25.13:56:18 P.20131013
+FL /home/sd/Desktop/UlaUla/subtrator.vhd 2022/10/25.14:03:22 P.20131013
+FL /home/sd/Desktop/UlaUla/ula.vhd 2022/10/27.10:48:19 P.20131013
+FL /home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd 2022/10/25.15:18:36 P.20131013
+EN work/comparadorum 1667328407 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd PB ieee/std_logic_1164 1381692176
+AR work/comparadorum/Behavioral 1667328408 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd EN work/comparadorum 1667328407
+FL /home/sd/ulaula/ulaula2/UlaUla/complementodois.vhd 2022/10/27.10:46:16 P.20131013
+EN work/complemento 1667328421 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/complementodois.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/complemento/Behavioral 1667328422 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/complementodois.vhd EN work/complemento 1667328421 \
+      CP somador
+FL /home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd 2022/11/01.15:35:37 P.20131013
+EN work/comp_completo 1667328413 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd PB ieee/std_logic_1164 1381692176
+AR work/comp_completo/Behavioral 1667328414 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd EN work/comp_completo 1667328413 \
+      CP comparadorum
+FL /home/sd/ulaula/ulaula2/UlaUla/decremento.vhd 2022/10/25.15:23:18 P.20131013
+EN work/decremento 1667328419 FL /home/sd/ulaula/ulaula2/UlaUla/decremento.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decremento/Behavioral 1667328420 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/decremento.vhd EN work/decremento 1667328419 \
+      CP subtrator
+FL /home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd 2022/10/25.13:55:20 P.20131013
+EN work/fulladder 1667328405 FL /home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fulladder/Behavioral 1667328406 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd EN work/fulladder 1667328405
+FL /home/sd/ulaula/ulaula2/UlaUla/incremento.vhd 2022/10/27.10:45:24 P.20131013
+EN work/incremento 1667328417 FL /home/sd/ulaula/ulaula2/UlaUla/incremento.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/incremento/Behavioral 1667328418 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/incremento.vhd EN work/incremento 1667328417 \
+      CP somador
+FL /home/sd/ulaula/ulaula2/UlaUla/mdc.vhd 2022/11/01.14:50:11 P.20131013
+EN work/mdc 1667328423 FL /home/sd/ulaula/ulaula2/UlaUla/mdc.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mdc/Behavioral 1667328424 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/mdc.vhd EN work/mdc 1667328423 CP mode
+FL /home/sd/ulaula/ulaula2/UlaUla/mod.vhd 2022/11/01.15:43:44 P.20131013
+EN work/mode 1667328415 FL /home/sd/ulaula/ulaula2/UlaUla/mod.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mode/Behavioral 1667328416 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/mod.vhd EN work/mode 1667328415 \
+      CP subtrator CP comp_completo
+FL /home/sd/ulaula/ulaula2/UlaUla/somador.vhd 2022/10/25.13:56:18 P.20131013
+EN work/somador 1667328409 FL /home/sd/ulaula/ulaula2/UlaUla/somador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador/Behavioral 1667328410 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/somador.vhd EN work/somador 1667328409 \
+      CP fulladder
+FL /home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd 2022/10/25.14:03:22 P.20131013
+EN work/subtrator 1667328411 FL /home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/subtrator/Behavioral 1667328412 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd EN work/subtrator 1667328411 \
+      CP somador
+FL /home/sd/ulaula/ulaula2/UlaUla/ula.vhd 2022/11/01.15:46:42 P.20131013
+EN work/ula 1667328425 FL /home/sd/ulaula/ulaula2/UlaUla/ula.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ula/Behavioral 1667328426 \
+      FL /home/sd/ulaula/ulaula2/UlaUla/ula.vhd EN work/ula 1667328425 CP somador \
+      CP subtrator CP incremento CP decremento CP complemento CP comp_completo \
+      CP mode CP mdc

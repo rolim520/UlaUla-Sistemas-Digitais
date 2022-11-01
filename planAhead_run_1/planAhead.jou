@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Nov  1 15:01:36 2022
+# Process ID: 7617
+# Log file: /home/sd/ulaula/ulaula2/UlaUla/planAhead_run_1/planAhead.log
+# Journal file: /home/sd/ulaula/ulaula2/UlaUla/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/sd/ulaula/ulaula2/UlaUla/pa.fromNetlist.tcl
+set_property package_pin "" [get_ports [list  {x[3]}]]
+startgroup
+set_property package_pin A20 [get_ports {z[0]}]
+endgroup
+startgroup
+set_property package_pin T19 [get_ports {z[1]}]
+endgroup
+startgroup
+set_property package_pin U20 [get_ports {z[2]}]
+endgroup
+startgroup
+set_property package_pin U19 [get_ports {z[3]}]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  {x[0]}]]
+startgroup
+set_property package_pin T9 [get_ports {x[3]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {x[2]}]
+endgroup
+startgroup
+set_property package_pin U10 [get_ports {x[1]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {x[0]}]
+endgroup
+save_constraints

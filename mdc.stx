@@ -1,0 +1,65 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/sd/ulaula/ulaula2/UlaUla/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/sd/ulaula/ulaula2/UlaUla/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/somador.vhd" in Library work.
+Architecture behavioral of Entity somador is up to date.
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd" in Library work.
+Architecture behavioral of Entity comparadorum is up to date.
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd" in Library work.
+Architecture behavioral of Entity comp_completo is up to date.
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd" in Library work.
+Architecture behavioral of Entity subtrator is up to date.
+Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" in Library work.
+ERROR:HDLParsers:3313 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 77. Undefined symbol 'newaux'.  Should it be: 'new aux'?
+ERROR:HDLParsers:1209 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 79. newaux: Undefined symbol (last report in this block)
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 80. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 81. Redeclaration of symbol op.
+ERROR:HDLParsers:3313 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 82. Undefined symbol 'newsaux'.  Should it be: new_aux?
+ERROR:HDLParsers:1209 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 82. newsaux: Undefined symbol (last report in this block)
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 83. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 84. Redeclaration of symbol op.
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 86. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 87. Redeclaration of symbol op.
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 89. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 90. Redeclaration of symbol op.
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 92. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 93. Redeclaration of symbol op.
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 95. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 96. Redeclaration of symbol op.
+ERROR:HDLParsers:820 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 98. Type of actual ports is not compatible with type of ports of subtrator.
+ERROR:HDLParsers:1202 - "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" Line 99. Redeclaration of symbol op.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+
+
+Total memory usage is 566568 kilobytes
+
+Number of errors   :   18 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

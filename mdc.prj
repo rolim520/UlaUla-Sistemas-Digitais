@@ -1,0 +1,7 @@
+vhdl work "fulladder.vhd"
+vhdl work "somador.vhd"
+vhdl work "comparadorum.vhd"
+vhdl work "subtrator.vhd"
+vhdl work "comp_completo.vhd"
+vhdl work "mod.vhd"
+vhdl work "mdc.vhd"

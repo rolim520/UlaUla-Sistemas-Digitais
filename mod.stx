@@ -1,0 +1,59 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/sd/Desktop/UlaUla/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/sd/Desktop/UlaUla/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/Desktop/UlaUla/mod.vhd" in Library work.
+Entity <mode> compiled.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 41. parse error, unexpected IDENTIFIER, expecting COMMA or COLON
+ERROR:HDLParsers:3312 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 61. Undefined symbol 'aux'.
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 62. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:1209 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 63. aux: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 63. Undefined symbol 'op'.
+ERROR:HDLParsers:1209 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 63. op: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 63. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 64. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 65. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 66. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 67. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 68. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 69. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 70. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 71. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 72. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 73. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 74. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 75. parse error, unexpected COLON, expecting SEMICOLON
+ERROR:HDLParsers:1300 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 76. Component 'comp_completo' comp_completo is not an array index prefix.
+ERROR:HDLParsers:164 - "/home/sd/Desktop/UlaUla/mod.vhd" Line 77. parse error, unexpected COLON, expecting SEMICOLON
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+
+
+Total memory usage is 565496 kilobytes
+
+Number of errors   :   21 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

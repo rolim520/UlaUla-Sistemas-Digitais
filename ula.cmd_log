@@ -1,0 +1,196 @@
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/ula.xst" -ofn "/home/sd/Desktop/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+xst -intstyle ise -ifn "/home/sd/ulaula/ulaula2/UlaUla/ula.xst" -ofn "/home/sd/ulaula/ulaula2/UlaUla/ula.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula.ucf -p xc3s700an-fgg484-5 ula.ngc ula.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o ula_map.ncd ula.ngd ula.pcf 
+par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula.twx ula.ncd -o ula.twr ula.pcf -ucf ula.ucf 
+bitgen -intstyle ise -f ula.ut ula.ncd 

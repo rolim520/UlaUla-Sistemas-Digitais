@@ -1,0 +1,324 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: subtrator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "subtrator.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "subtrator"
+Output Format                      : NGC
+Target Device                      : xc3s700an-5-fgg484
+
+---- Source Options
+Top Module Name                    : subtrator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sd/Desktop/UlaUla/fulladder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "/home/sd/Desktop/UlaUla/somador.vhd" in Library work.
+Architecture behavioral of Entity somador is up to date.
+Compiling vhdl file "/home/sd/Desktop/UlaUla/subtrator.vhd" in Library work.
+Architecture behavioral of Entity subtrator is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <subtrator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <somador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <fulladder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <subtrator> in library <work> (Architecture <behavioral>).
+Entity <subtrator> analyzed. Unit <subtrator> generated.
+
+Analyzing Entity <somador> in library <work> (Architecture <behavioral>).
+Entity <somador> analyzed. Unit <somador> generated.
+
+Analyzing Entity <fulladder> in library <work> (Architecture <behavioral>).
+Entity <fulladder> analyzed. Unit <fulladder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <fulladder>.
+    Related source file is "/home/sd/Desktop/UlaUla/fulladder.vhd".
+    Found 1-bit xor3 for signal <soma>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fulladder> synthesized.
+
+
+Synthesizing Unit <somador>.
+    Related source file is "/home/sd/Desktop/UlaUla/somador.vhd".
+    Found 1-bit xor2 for signal <overflow>.
+Unit <somador> synthesized.
+
+
+Synthesizing Unit <subtrator>.
+    Related source file is "/home/sd/Desktop/UlaUla/subtrator.vhd".
+Unit <subtrator> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 5
+ 1-bit xor2                                            : 1
+ 1-bit xor3                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 5
+ 1-bit xor2                                            : 1
+ 1-bit xor3                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <subtrator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block subtrator, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : subtrator.ngr
+Top Level Output File Name         : subtrator
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 8
+#      LUT2                        : 1
+#      LUT3                        : 5
+#      LUT4                        : 2
+# IO Buffers                       : 14
+#      IBUF                        : 8
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700anfgg484-5 
+
+ Number of Slices:                        4  out of   5888     0%  
+ Number of 4 input LUTs:                  8  out of  11776     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    372     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.826ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 36 / 6
+-------------------------------------------------------------------------
+Delay:               8.826ns (Levels of Logic = 5)
+  Source:            x<0> (PAD)
+  Destination:       cout (PAD)
+
+  Data Path: x<0> to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.824   0.517  x_0_IBUF (op/op1/cout_and0001)
+     LUT4:I1->O            2   0.562   0.488  op/op2/cout1 (op/c<1>)
+     LUT3:I0->O            3   0.561   0.559  op/op4/cout21 (N3)
+     LUT3:I0->O            1   0.561   0.357  op/op4/cout1 (cout_OBUF)
+     OBUF:I->O                 4.396          cout_OBUF (cout)
+    ----------------------------------------
+    Total                      8.826ns (6.904ns logic, 1.922ns route)
+                                       (78.2% logic, 21.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.93 secs
+ 
+--> 
+
+
+Total memory usage is 607248 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

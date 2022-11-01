@@ -1,0 +1,101 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml somador.twx somador.ncd -o somador.twr somador.pcf
+
+Design file:              somador.ncd
+Physical constraint file: somador.pcf
+Device,package,speed:     xc3s700an,fgg484,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+cin            |cout           |    9.261|
+cin            |overflow       |    8.866|
+cin            |z<0>           |    6.890|
+cin            |z<1>           |    7.333|
+cin            |z<2>           |    8.262|
+cin            |z<3>           |    8.601|
+x<0>           |cout           |    8.956|
+x<0>           |overflow       |    8.561|
+x<0>           |z<0>           |    6.582|
+x<0>           |z<1>           |    7.028|
+x<0>           |z<2>           |    7.957|
+x<0>           |z<3>           |    8.296|
+x<1>           |cout           |    8.246|
+x<1>           |overflow       |    7.851|
+x<1>           |z<1>           |    6.201|
+x<1>           |z<2>           |    7.247|
+x<1>           |z<3>           |    7.586|
+x<2>           |cout           |    7.488|
+x<2>           |overflow       |    7.093|
+x<2>           |z<2>           |    6.394|
+x<2>           |z<3>           |    6.828|
+x<3>           |cout           |    6.806|
+x<3>           |overflow       |    6.408|
+x<3>           |z<3>           |    6.263|
+y<0>           |cout           |    8.968|
+y<0>           |overflow       |    8.573|
+y<0>           |z<0>           |    6.746|
+y<0>           |z<1>           |    7.040|
+y<0>           |z<2>           |    7.969|
+y<0>           |z<3>           |    8.308|
+y<1>           |cout           |    8.374|
+y<1>           |overflow       |    7.979|
+y<1>           |z<1>           |    6.478|
+y<1>           |z<2>           |    7.375|
+y<1>           |z<3>           |    7.714|
+y<2>           |cout           |    7.346|
+y<2>           |overflow       |    6.951|
+y<2>           |z<2>           |    6.249|
+y<2>           |z<3>           |    6.686|
+y<3>           |cout           |    6.745|
+y<3>           |overflow       |    6.385|
+y<3>           |z<3>           |    6.216|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Oct 25 13:56:45 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 376 MB
+
+
+

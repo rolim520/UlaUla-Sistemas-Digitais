@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/somador.xst" -ofn "/home/sd/Desktop/UlaUla/somador.syr" 
+xst -intstyle ise -ifn "/home/sd/Desktop/UlaUla/somador.xst" -ofn "/home/sd/Desktop/UlaUla/somador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-5 somador.ngc somador.ngd  
+map -intstyle ise -p xc3s700an-fgg484-5 -cm area -ir off -pr off -c 100 -o somador_map.ncd somador.ngd somador.pcf 
+par -w -intstyle ise -ol high -t 1 somador_map.ncd somador.ncd somador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml somador.twx somador.ncd -o somador.twr somador.pcf 

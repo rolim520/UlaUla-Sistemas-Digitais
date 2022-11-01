@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/sd/ulaula/ulaula2/UlaUla/ula.ncd
+OUTFILE=/home/sd/ulaula/ulaula2/UlaUla/ula.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-5fgg484
+WORKINGDIR=/home/sd/ulaula/ulaula2/UlaUla
+LICENSE=WebPack
+USER_INFO=211545305_0_0_116

@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Nov  1 15:17:02 2022
+# Process ID: 8433
+# Log file: /home/sd/ulaula/ulaula2/UlaUla/planAhead_run_3/planAhead.log
+# Journal file: /home/sd/ulaula/ulaula2/UlaUla/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1220 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/sd/ulaula/ulaula2/UlaUla/pa.fromNetlist.tcl
+# create_project -name UlaUla -dir "/home/sd/ulaula/ulaula2/UlaUla/planAhead_run_3" -part xc3s700anfgg484-5
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/home/sd/ulaula/ulaula2/UlaUla/ula.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/sd/ulaula/ulaula2/UlaUla} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ula.ucf" [current_fileset -constrset]
+Adding file '/home/sd/ulaula/ulaula2/UlaUla/ula.ucf' to fileset 'constrs_1'
+# add_files [list {ula.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s700anfgg484-5
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ula.ngc ...
+WARNING:NetListWriters:298 - No output is written to ula.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ula.edif ...
+ngc2edif: Total memory usage is 102844 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/UlaUla.data/cache/ula_ngc_cfcb756a.edif]
+Finished Parsing EDIF File [./planAhead_run_3/UlaUla.data/cache/ula_ngc_cfcb756a.edif]
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/fgg484/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s700an/fgg484/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+Parsing UCF File [/home/sd/ulaula/ulaula2/UlaUla/ula.ucf]
+Finished Parsing UCF File [/home/sd/ulaula/ulaula2/UlaUla/ula.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: eb018cd5
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 2799.578 ; gain = 90.336
