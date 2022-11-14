@@ -1,8 +1,8 @@
 INTSTYLE=impact
-INFILE=/home/sd/ulaula/ulaula2/UlaUla/impact.xsl
-OUTFILE=/home/sd/ulaula/ulaula2/UlaUla/impact.xsl
+INFILE=/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/impact.xsl
+OUTFILE=/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/impact.xsl
 FAMILY=Multiple
 PART=Multiple
-WORKINGDIR=/home/sd/ulaula/ulaula2/UlaUla
+WORKINGDIR=/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla
 LICENSE=iMPACT
 USER_INFO=iMPACT

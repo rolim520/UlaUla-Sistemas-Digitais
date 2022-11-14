@@ -107,27 +107,27 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/fulladder.vhd" in Library work.
 Architecture behavioral of Entity fulladder is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/comparadorum.vhd" in Library work.
 Architecture behavioral of Entity comparadorum is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/somador.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/somador.vhd" in Library work.
 Architecture behavioral of Entity somador is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/subtrator.vhd" in Library work.
 Architecture behavioral of Entity subtrator is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/comp_completo.vhd" in Library work.
 Architecture behavioral of Entity comp_completo is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/mod.vhd" in Library work.
 Architecture behavioral of Entity mode is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/incremento.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/incremento.vhd" in Library work.
 Architecture behavioral of Entity incremento is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/decremento.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/decremento.vhd" in Library work.
 Architecture behavioral of Entity decremento is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/complementodois.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/complementodois.vhd" in Library work.
 Architecture behavioral of Entity complemento is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/mdc.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/mdc.vhd" in Library work.
 Architecture behavioral of Entity mdc is up to date.
-Compiling vhdl file "/home/sd/ulaula/ulaula2/UlaUla/ula.vhd" in Library work.
+Compiling vhdl file "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/ula.vhd" in Library work.
 Entity <ula> compiled.
 Entity <ula> (Architecture <behavioral>) compiled.
 
@@ -233,7 +233,7 @@ Entity <mdc> analyzed. Unit <mdc> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <fulladder>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/fulladder.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/fulladder.vhd".
     Found 1-bit xor3 for signal <soma>.
     Summary:
 	inferred   1 Xor(s).
@@ -241,44 +241,44 @@ Unit <fulladder> synthesized.
 
 
 Synthesizing Unit <comparadorum>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/comparadorum.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/comparadorum.vhd".
     Found 1-bit xor2 for signal <e$xor0000> created at line 47.
 Unit <comparadorum> synthesized.
 
 
 Synthesizing Unit <somador>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/somador.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/somador.vhd".
     Found 1-bit xor2 for signal <overflow>.
 Unit <somador> synthesized.
 
 
 Synthesizing Unit <comp_completo>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/comp_completo.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/comp_completo.vhd".
 Unit <comp_completo> synthesized.
 
 
 Synthesizing Unit <subtrator>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/subtrator.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/subtrator.vhd".
 Unit <subtrator> synthesized.
 
 
 Synthesizing Unit <incremento>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/incremento.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/incremento.vhd".
 Unit <incremento> synthesized.
 
 
 Synthesizing Unit <complemento>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/complementodois.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/complementodois.vhd".
 Unit <complemento> synthesized.
 
 
 Synthesizing Unit <decremento>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/decremento.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/decremento.vhd".
 Unit <decremento> synthesized.
 
 
 Synthesizing Unit <mode>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/mod.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/mod.vhd".
 WARNING:Xst:1780 - Signal <um> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <tres<2:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <sete<2:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -298,7 +298,7 @@ Unit <mode> synthesized.
 
 
 Synthesizing Unit <mdc>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/mdc.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/mdc.vhd".
 WARNING:Xst:1305 - Output <neg> is never assigned. Tied to value 0.
 WARNING:Xst:1780 - Signal <c8> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <a8> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -306,8 +306,10 @@ Unit <mdc> synthesized.
 
 
 Synthesizing Unit <ula>.
-    Related source file is "/home/sd/ulaula/ulaula2/UlaUla/ula.vhd".
+    Related source file is "/home/sd/Desktop/pen/LaUlaUla/ulaula/ulaula2/UlaUla/ula.vhd".
+WARNING:Xst:646 - Signal <ziero<7:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:1780 - Signal <z_comparador> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <sienal<7:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <of_sub> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <of_soma> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <of_inc> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -320,12 +322,6 @@ WARNING:Xst:646 - Signal <cout_soma> is assigned but never used. This unconnecte
 WARNING:Xst:646 - Signal <cout_inc> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <cout_dec> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <cout_compl> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans7> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans5> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans4> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-WARNING:Xst:646 - Signal <ans1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <ula> synthesized.
 
 
@@ -440,15 +436,15 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 8
+# IOs                              : 12
 
 Cell Usage :
 # BELS                             : 3
 #      GND                         : 1
 #      LUT2                        : 2
-# IO Buffers                       : 6
+# IO Buffers                       : 10
 #      IBUF                        : 2
-#      OBUF                        : 4
+#      OBUF                        : 8
 =========================================================================
 
 Device utilization summary:
@@ -458,8 +454,8 @@ Selected Device : 3s700anfgg484-5
 
  Number of Slices:                        1  out of   5888     0%  
  Number of 4 input LUTs:                  2  out of  11776     0%  
- Number of IOs:                           8
- Number of bonded IOBs:                   6  out of    372     1%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  10  out of    372     2%  
 
 ---------------------------
 Partition Resource Summary:
@@ -521,14 +517,14 @@ Delay:               6.697ns (Levels of Logic = 3)
 
 
 Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 8.28 secs
+Total CPU time to Xst completion: 8.22 secs
  
 --> 
 
 
-Total memory usage is 633716 kilobytes
+Total memory usage is 633680 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   60 (   0 filtered)
+Number of warnings :   56 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -59,7 +59,13 @@
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">a8</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ziero&lt;7:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
 <msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">z_comparador</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sienal&lt;7:1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">of_sub</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
@@ -98,24 +104,6 @@
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">cout_compl</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans7</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans5</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans4</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">ans1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
 <msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ula</arg>&gt;.
 It will be removed from the design.
 </msg>
@@ -140,7 +128,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ula</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ula</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -148,7 +136,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op2</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op2</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -156,7 +144,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op4</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op4</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -164,7 +152,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op6</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op6</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -172,7 +160,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op8</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op8</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -180,7 +168,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op10</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op10</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -188,7 +176,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op12</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op12</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -196,7 +184,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op14</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op14</arg>&gt;.
 It will be removed from the design.
 </msg>
 
@@ -204,7 +192,7 @@ It will be removed from the design.
 It will be removed from the design.
 </msg>
 
-<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op16</arg>&gt;.
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">op4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">op16</arg>&gt;.
 It will be removed from the design.
 </msg>
 

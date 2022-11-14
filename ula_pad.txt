@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Nov  1 15:47:10 2022
+Tue Nov  8 15:18:43 2022
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -456,8 +456,8 @@ Pinout by Pin Number:
 |V16       |           |DIFFSTB   |IO_L31N_2             |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |V17       |           |DIFFSTB   |IO_L33N_2             |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |V18       |           |          |VCCAUX                |         |           |              |          |         |           |         |3.3      |          |           |                |
-|V19       |           |DIFFMLR   |IO_L06P_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|V20       |           |DIFFSLR   |IO_L06N_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|V19       |cout       |IOB       |IO_L06P_1             |OUTPUT   |LVCMOS25*  |1             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
+|V20       |overflow   |IOB       |IO_L06N_1             |OUTPUT   |LVCMOS25*  |1             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
 |V21       |           |          |VCCO_1                |         |           |1             |          |         |           |         |2.50     |          |           |                |
 |V22       |           |DIFFSLR   |IO_L07N_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |W1        |           |DIFFMLR   |IO_L42P_3             |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
@@ -480,7 +480,7 @@ Pinout by Pin Number:
 |W18       |           |DIFFMTB   |IO_L33P_2             |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |W19       |           |DIFFMLR   |IO_L02P_1/LDC1        |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |W20       |           |DIFFSLR   |IO_L02N_1/LDC0        |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|W21       |           |DIFFSLR   |IO_L05N_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|W21       |zero       |IOB       |IO_L05N_1             |OUTPUT   |LVCMOS25*  |1             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
 |W22       |           |DIFFMLR   |IO_L07P_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |Y1        |           |DIFFMLR   |IO_L44P_3             |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
 |Y2        |           |DIFFSLR   |IO_L44N_3             |UNUSED   |           |3             |          |         |           |         |         |          |           |                |
@@ -503,7 +503,7 @@ Pinout by Pin Number:
 |Y19       |           |          |DONE                  |         |           |              |          |         |           |         |         |          |           |                |
 |Y20       |           |          |GND                   |         |           |              |          |         |           |         |         |          |           |                |
 |Y21       |           |DIFFSLR   |IO_L01N_1/LDC2        |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|Y22       |           |DIFFMLR   |IO_L05P_1             |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|Y22       |sinal      |IOB       |IO_L05P_1             |OUTPUT   |LVCMOS25*  |1             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 * Default value.

@@ -9,7 +9,7 @@ Target Device  : xc3s700an
 Target Package : fgg484
 Target Speed   : -5
 Mapper Version : spartan3a -- $Revision: 1.55 $
-Mapped Date    : Tue Nov  1 15:46:59 2022
+Mapped Date    : Tue Nov  8 15:18:32 2022
 
 Mapping design into LUTs...
 Running directed packing...
@@ -35,7 +35,7 @@ Logic Distribution:
     Number of Slices containing unrelated logic:          0 out of       1   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
   Total Number of 4 input LUTs:           2 out of  11,776    1%
-  Number of bonded IOBs:                  8 out of     372    2%
+  Number of bonded IOBs:                 12 out of     372    3%
 
 Average Fanout of Non-Clock Nets:                1.17
 

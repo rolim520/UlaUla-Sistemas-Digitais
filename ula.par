@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-lig014.del.ufrj.br::  Tue Nov 01 15:47:04 2022
+lig014.del.ufrj.br::  Tue Nov 08 15:18:37 2022
 
 par -w -intstyle ise -ol high -t 1 ula_map.ncd ula.ncd ula.pcf 
 
@@ -24,7 +24,7 @@ Device speed data version:  "PRODUCTION 1.42 2013-10-13".
 
 Design Summary Report:
 
- Number of External IOBs                           8 out of 372     2%
+ Number of External IOBs                          12 out of 372     3%
 
    Number of External Input IOBs                  4
 
@@ -32,10 +32,10 @@ Design Summary Report:
         Number of LOCed External Input IBUFs      4 out of 4     100%
 
 
-   Number of External Output IOBs                 4
+   Number of External Output IOBs                 8
 
-      Number of External Output IOBs              4
-        Number of LOCed External Output IOBs      4 out of 4     100%
+      Number of External Output IOBs              8
+        Number of LOCed External Output IOBs      8 out of 8     100%
 
 
    Number of External Bidir IOBs                  0
@@ -62,35 +62,35 @@ Total REAL time at the beginning of Placer: 1 secs
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:85d860bf) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:85d860bf) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:85d860bf) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-Phase 4.2  Initial Clock and IO Placement (Checksum:85d860bf) REAL time: 2 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:85d860bf) REAL time: 2 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:85d860bf) REAL time: 2 secs 
+Phase 6.36  Local Placement Optimization (Checksum:3c439df4) REAL time: 2 secs 
 
 Phase 7.8  Global Placement
 ..
-Phase 7.8  Global Placement (Checksum:984c99ff) REAL time: 2 secs 
+Phase 7.8  Global Placement (Checksum:57f1f3d4) REAL time: 2 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:984c99ff) REAL time: 2 secs 
+Phase 8.5  Local Placement Optimization (Checksum:57f1f3d4) REAL time: 2 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:a4caa2b7) REAL time: 2 secs 
+Phase 9.18  Placement Optimization (Checksum:6aaf00e8) REAL time: 2 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:a4caa2b7) REAL time: 2 secs 
+Phase 10.5  Local Placement Optimization (Checksum:6aaf00e8) REAL time: 2 secs 
 
 Total REAL time to Placer completion: 2 secs 
 Total CPU  time to Placer completion: 2 secs 
@@ -101,9 +101,9 @@ Writing design to file ula.ncd
 Starting Router
 
 
-Phase  1  : 8 unrouted;      REAL time: 5 secs 
+Phase  1  : 12 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 8 unrouted;      REAL time: 5 secs 
+Phase  2  : 12 unrouted;      REAL time: 5 secs 
 
 Phase  3  : 0 unrouted;      REAL time: 5 secs 
 
