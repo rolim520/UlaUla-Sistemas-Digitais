@@ -29,6 +29,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- Esse modulo recebe duas entradas binarias, compara-as bit a bit, partindo do bit mais significativo
+-- e retorna como saida um sinal indicando se x>y, x=y ou x<y.
 entity comp_completo is
     Port ( a : in  STD_LOGIC_VECTOR (3 downto 0);
            b : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -45,7 +47,8 @@ architecture Behavioral of comp_completo is
 	signal snd: std_logic_vector(2 downto 0);
 	signal fst: std_logic_vector(2 downto 0);
 	signal zero: std_logic_vector(2 downto 0);
-	
+
+-- O comparador de um bit e utilizado e expandido para criar o comparador completo.
 	component comparadorum is
 	port (x,y: in std_logic;
 		z: out std_logic_vector (2 downto 0));
@@ -58,6 +61,7 @@ op2: comparadorum port map (a(2), b(2), snd);
 op3: comparadorum port map (a(1), b(1), fst);
 op4: comparadorum port map (a(0), b(0), zero);
 
+-- Indicacao das condicoes para as saidas.
 maior <= trd(0) OR (trd(1) AND snd(0)) OR (trd(1) AND fst(0) AND snd(1)) OR (trd(1) AND snd(1) AND fst(1) AND zero(0));
 igual <= trd(1) AND snd(1) AND fst(1) AND zero(1);
 menor <= trd(2) OR (trd(1) AND snd(2)) OR (trd(1) AND fst(2) AND snd(1)) OR (trd(1) AND snd(1) AND fst(1) AND zero(2));

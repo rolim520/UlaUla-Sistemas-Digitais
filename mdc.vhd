@@ -28,7 +28,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- any Xilinx primitives in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
-
+-- O modulo de MDC recebe duas entradas binarias e retorna um vetor que representa
+-- o maior divisor comum entre os dois numeros
 entity mdc is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            y : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -53,7 +54,8 @@ end component;
 begin
 a1 <= x;
 b1 <= y;
-
+-- Para realizar essa operacao, utilizamos o Algoritmo de Euclides, que se utiliza de divisoes sucessivas.
+-- Assim, precisamos usar nosso modulo da operacao Mod.a2
 op1: mode port map(a1,b1,c1);
 a2 <= a1 when (c1 = "0000") else
 		b1;

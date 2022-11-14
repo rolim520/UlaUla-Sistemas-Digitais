@@ -29,6 +29,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+
+-- Essa operacao tem por objetivo realizar a soma(z) de dois vetores binarios de 4 bits (x e y).
+-- São retornados soma, Cout e uma flag de overflow.
+-- O modulo somador tambem serve de base para diversos outros modulos.
 entity somador is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            y : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -48,7 +52,7 @@ architecture Behavioral of somador is
 	end component;
 	
 begin
-	
+	-- O modulo é composto pela junção de 4 full adders que realizam a soma de cada bit
 	op1: fulladder port map (x(0), y(0), cin, z(0), c(0));
 	op2: fulladder port map (x(1), y(1), c(0), z(1), c(1));
 	op3: fulladder port map (x(2), y(2), c(1), z(2), c(2));
@@ -57,7 +61,5 @@ begin
 	cout <= c(3);
 	overflow <= c(3) XOR c(2);
 	
-	
-
 end Behavioral;
 

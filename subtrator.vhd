@@ -29,6 +29,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- Essa operacao tem por objetivo realizar a subtracao(z) de dois vetores binarios de 4 bits.
+-- Tal operacao e feita somando um vetor x com o complemento a 2 de um vetor y o que resulta na subtracao.
 entity subtrator is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            y : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -39,6 +41,7 @@ end subtrator;
 
 architecture Behavioral of subtrator is
 
+	-- vetor para armazenar o y invertido
 	signal noty: std_logic_vector (3 downto 0);
 	signal cin: std_logic;
 
@@ -51,6 +54,7 @@ architecture Behavioral of subtrator is
 
 begin
 
+	-- O complemento a 2 e feito a partir do invertido de y e o cin = 1
 	noty <= NOT y;
 	cin <= '1';
 	op: somador port map (x, noty, cin, z, cout, overflow);

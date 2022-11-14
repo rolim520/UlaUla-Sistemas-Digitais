@@ -42,7 +42,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- any Xilinx primitives in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
-
+-- Esse modulo recebe duas entradas binarias (x, y) e retorna a saida z, que representa o resta 
+-- da divisao inteira de x por y.
 entity mode is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            y : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -75,7 +76,8 @@ Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
 end component;
 begin
 aux1 <= x;
-
+-- Precisamos do subtrator para realizar o maior numero de subtracoes possiveis de x em relacao a y
+-- e determinar o resto. 
 op1: subtrator port map (aux1, y, newaux1, caux(0), overaux(0));
 op2: comp_completo port map (aux1,y,dois);
 aux2 <= newaux1 when (dois(0) = '0') else

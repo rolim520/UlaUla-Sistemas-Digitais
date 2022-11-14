@@ -29,6 +29,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+
+-- Operacao responsavel por realizar o complemento a 2 de um vetor x
+-- Sao retornados o comlemento a 2(z), o Cout e o overflow
 entity complemento is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            z : out  STD_LOGIC_VECTOR (3 downto 0);
@@ -50,6 +53,7 @@ architecture Behavioral of complemento is
 
 begin
 
+-- O complemento a 2 e feito invertendo o vetor x, somando o mesmo com um vetor nulo e colocando Cin = 1
 x_barrado <= NOT x;
 aux <= "0000";
 cin <= '1';

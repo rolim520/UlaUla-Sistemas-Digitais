@@ -4,7 +4,7 @@
 -- 
 -- Create Date:    14:26:51 10/25/2022 
 -- Design Name: 
--- Module Name:    multiplicador - Behavioral 
+-- Module Name:    decremento - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,6 +29,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- Essa operacao tem como objetivo receber um vetor binario (x) e retornar, como saida, 
+-- um vetor binario (z), alem das flags declaradas na ULA. Esse vetor e resultado da subtracao do vetor x por 1.
+
 entity decremento is
     
 	Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -40,6 +43,7 @@ end decremento;
 architecture Behavioral of decremento is
 	
 	signal aux: std_logic_vector (3 downto 0);
+-- Para facilitar a implementacao dessa operacao, nos aproveitamos do modulo de subtrator a fim de realizar a função.
 
 	component subtrator is
 	port 	(x, y: in std_logic_vector (3 downto 0);

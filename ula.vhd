@@ -29,6 +29,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+-- Arquivo responsavel por agrupar todos os modulos da ula.
+-- Para cada vetor de bits recebidos todas as operacao sao realizadas e posteriormente e feita a selecao
+-- de qual de fato sera exibida
+-- Por motivos de limitacao dos switchs foi preciso selecionar tanto a operacao quanto o operando y no proprio codigo
 entity ula is
     Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
            --y : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -93,7 +97,7 @@ architecture Behavioral of ula is
                y : in  STD_LOGIC_VECTOR (3 downto 0);
                z : out  STD_LOGIC_VECTOR (3 downto 0));
 
-end component;
+     end component;
 
 	component mdc is
 	Port ( x : in  STD_LOGIC_VECTOR (3 downto 0);
@@ -115,10 +119,15 @@ end component;
 
 begin
 
+-- y seleciona o operando
 y <= "0100";
+
+-- sel seleciona o operando
 sel <= "111";
 
 cin <= '0';
+
+-- Realiza todas as operacoes da ula e guarda seus resultados
 op1: somador port map (x,y,cin,ans1,cout_soma,of_soma);
 op2: subtrator port map (x,y,ans2,cout_sub,of_sub);
 op3: incremento port map (x, ans3, cout_inc, of_inc);
@@ -128,6 +137,7 @@ op6: comp_completo port map (x, y, ans6);
 op7: mode port map (x,y,ans7);
 op8: mdc port map (x,y,ans8,neg_mdc);
 
+-- Realiza o zero para cada operacao da ula e guarda seus resultados
 ziero(1) <= NOT(ans1(0) OR ans1(1) OR ans1(2) OR ans1(3));
 ziero(2) <= NOT(ans2(0) OR ans2(1) OR ans2(2) OR ans2(3));
 ziero(3) <= NOT(ans3(0) OR ans3(1) OR ans3(2) OR ans3(3));
@@ -137,6 +147,7 @@ ziero(6) <= '0';
 ziero(7) <= NOT(ans7(0) OR ans7(1) OR ans7(2) OR ans7(3));
 ziero(8) <= NOT(ans8(0) OR ans8(1) OR ans8(2) OR ans8(3));
 
+-- Realiza o sinal para cada operacao da ula e guarda seus resultados
 sienal(1) <= ans1(3);
 sienal(2) <= ans2(3);
 sienal(3) <= ans3(3);
@@ -146,8 +157,10 @@ sienal(6) <= '0';
 sienal(7) <= ans7(3);
 sienal(8) <= ans8(3);
 
+-- newans6 e separado pois a comparacao possui uma codificacao diferente dos bits de resultado
 newans6 <= ('0',ans6(2),ans6(1),ans6(0));
 
+-- Seleciona o z, cout, overflow, zero e sinal dependendo da operacao selecionada
 z <= ans1 when (sel = "000") else
      ans2 when (sel = "001") else
      ans3 when (sel = "010") else
